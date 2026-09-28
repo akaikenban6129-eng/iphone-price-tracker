@@ -1,0 +1,20 @@
+{
+  "conditions": {"min_battery": 80, "capacity_gb": 256, "sim": "SIMフリー", "network_limit": "○",
+                 "ok_ranks": ["S", "A"], "drop_vs_30d": 0.05, "near_low": 0.02},
+  "models": ["iPhone 15", "iPhone 15 Plus", "iPhone 15 Pro", "iPhone 15 Pro Max"],
+  "sites": {
+    "Apple整備品": {"enabled": true, "urls": ["https://www.apple.com/jp/shop/refurbished/iphone"], "shipping": 0},
+    "イオシス": {"enabled": true, "urls": ["https://iosys.co.jp/items/smartphone/iphone?q=iPhone15"], "shipping": 0},
+    "じゃんぱら": {"enabled": true, "urls": ["https://www.janpara.co.jp/sale/search/result/?KEYWORDS=iPhone15+256GB"], "shipping": 0},
+    "ゲオ": {"enabled": true, "urls": ["https://ec.geo-online.co.jp/shop/goods/search.aspx?keyword=iPhone15+256GB"], "shipping": 550},
+    "にこスマ": {"enabled": true, "urls": ["https://nicosuma.com/iphone/iphone15/"], "shipping": 0},
+    "Back Market": {"enabled": false, "urls": ["https://www.backmarket.co.jp/ja-jp/l/iphone-15/"], "shipping": 0},
+    "Amazon整備品": {"enabled": false, "urls": [], "shipping": 0}
+  },
+  "rank_map": {
+    "整備済製品": "S", "未使用品": "S", "未使用": "S", "Sランク": "S", "プレミアム": "S",
+    "中古Aランク": "A", "Aランク": "A", "ランクA": "A", "最良": "A", "整備済み品": "A",
+    "中古Bランク": "B", "Bランク": "B", "ランクB": "B", "良品": "B",
+    "中古Cランク": "C", "Cランク": "C", "ランクC": "C", "可": "C"
+  }
+}
